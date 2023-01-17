@@ -1,5 +1,11 @@
 import './App.css';
 import React from "react";
+import { createBrowserHistory } from 'history';
+
+
+export const history = createBrowserHistory({
+    basename: process.env.PUBLIC_URL
+});
 
 // eslint-disable-next-line no-undef
 
