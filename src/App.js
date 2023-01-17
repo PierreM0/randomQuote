@@ -83,7 +83,7 @@ class App extends React.Component {
                   <p id="author" style={styleFg}>{this.state.author}</p>
                   <div id="buttons">
                       <span id="share">
-                         <a id="tweet-quote" rel="noreferrer" target="_blank" href={"https://twitter.com/intent/tweet?hashtags=quotes&text=\""+this
+                         <a id="tweet-quote" rel="noopener noreferrer" target="_blank" href={"https://twitter.com/intent/tweet?hashtags=quotes&text=\""+this
                              .state.quote.split(' ').join('+')+"\"+"+this.state.author.split(' ').join('+')} style={styleBg}>
                             <i className="fa-brands fa-twitter"></i>
                          </a>

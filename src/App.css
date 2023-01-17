@@ -77,3 +77,9 @@ a, button {
     display: flex;
     align-items: center;
 }
+
+@media (max-width: 500px) {
+    #quote-box {
+        width: 90vw;
+    }
+}
